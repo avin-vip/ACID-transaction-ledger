@@ -1,0 +1,5 @@
+# Hint GitHub Linguist to classify languages correctly
+Makefile linguist-language=Text
+*.c      linguist-language=C
+*.h      linguist-language=C
+
