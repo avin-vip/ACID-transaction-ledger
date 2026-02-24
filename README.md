@@ -95,3 +95,8 @@ ACID/
 - **Double-entry** — Every transaction records matched debits and credits; total debits must equal total credits before commit.
 - **WAL** — Log records (begin tx, debit, credit, commit/abort, checkpoint) are appended with CRC32; replay verifies checksums and reapplies committed operations.
 - **Checkpoints** — Snapshot of account store and next transaction id is written to the log; recovery can load the latest checkpoint then replay only subsequent records.
+
+
+## Author
+
+Avin Vipanurat (avin.vipanurat@gmail.com)
